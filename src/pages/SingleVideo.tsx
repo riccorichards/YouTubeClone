@@ -33,7 +33,7 @@ const SingleVideo = () => {
           justifyContent: "space-between",
         }}
       >
-        <SingleVideoContent videoId={videoId} />
+        <SingleVideoContent videoId={videoId} screenSize={screenSize} />
         <RelativeVideos videoId={videoId} />
       </main>
     </div>
